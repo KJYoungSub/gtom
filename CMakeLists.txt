@@ -35,7 +35,7 @@ SET(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS};-gencode arch=compute_86,code=sm_86")
 SET(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS};-restrict")
 SET(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS};-use_fast_math")
 SET(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS};-lineinfo")
-SET(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS};-std=c++11")
+#SET(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS};-std=c++11")
 SET(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS};-cudart=static")
 #SET(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS};--ptxas-options=-v")
 
